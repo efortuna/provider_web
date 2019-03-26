@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:flutter/foundation.dart';
-import 'package:flutter/widgets.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:flutter_web/foundation.dart';
+import 'package:flutter_web/widgets.dart';
+import 'package:flutter_hooks_web/flutter_hooks.dart';
 
 /// Necessary to obtain generic [Type]
 /// see https://stackoverflow.com/questions/52891537/how-to-get-generic-type

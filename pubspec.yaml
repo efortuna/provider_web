@@ -1,19 +1,27 @@
-name: provider
-description: An helper to easily exposes a value using InheritedWidget without having to write one.
+name: provider_web
+description: A helper to easily exposes a value using InheritedWidget without having to write one.
 version: 1.6.1
-homepage: https://github.com/rrousselGit/provider
+homepage: https://github.com/efortuna/provider_web
 author: Remi Rousselet <darky12s@gmail.com>
 
 environment:
   sdk: ">=2.0.0 <3.0.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
-  flutter_hooks: '>=0.2.1 <1.0.0'
+  flutter_web: any
+  flutter_web_ui: any
+  flutter_hooks_web: any
 
-dev_dependencies:
-  pedantic: ^1.4.0
-  mockito: ^4.0.0
-  flutter_test:
-    sdk: flutter
+dependency_overrides:
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
+  flutter_hooks_web:
+    git:
+      url: https://github.com/efortuna/flutter_hooks_web
+      path: packages/flutter_hooks_web

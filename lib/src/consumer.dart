@@ -1,5 +1,5 @@
-import 'package:flutter/widgets.dart';
-import 'package:provider/src/provider.dart';
+import 'package:flutter_web/widgets.dart';
+import 'package:provider_web/src/provider.dart';
 
 /// Obtain [Provider<T>] from its ancestors and pass its value to [builder].
 ///

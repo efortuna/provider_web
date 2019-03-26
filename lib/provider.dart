@@ -1,4 +1,4 @@
-library provider;
+library provider_web;
 
 export 'src/consumer.dart';
 export 'src/provider.dart'
